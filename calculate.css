@@ -125,3 +125,14 @@
 .operator:focus{
     background: rgba(0, 0, 100, 0.2);
 }
+@media only screen and (max-width: 320px){
+   .main a{
+       font-size: 16px;
+    }
+.search input{
+       width : 150px;
+    }
+#calculator{ 
+  width: 300 px;
+}
+}
